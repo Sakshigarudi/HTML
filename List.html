@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <style>
+      body{
+        background-image: url(D.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    #Fruits li{
+      list-style-type: none;
+  }
+  #Fruits li::before{
+      content: "🍎";
+  }
+#para::selection{
+            background-color: cadetblue;
+        }
+        
+</style>
+  </head>
+  <body>
+    <h2>List Of Fruits</h2>
+    <ul id="Fruits">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Mango</li>
+      <li>Grapes</li>
+    </ul>
+    <hr />
+    <h2>List Of Friends</h2>
+    <ol>
+      <li>Anushka</li>
+      <li>Ankita</li>
+      <li>Omkar</li>
+      <li>kirti</li>
+      <li>Pranjul</li>
+    </ol>
+    <hr />
+    <h2>List Of Friends With Categories</h2>
+    <ol>
+      <li>
+        Best Buddies:-
+        <ul>
+          <li>Omkar</li>
+          <li>Anushka</li>
+          <li>Ankita</li>
+        </ul>
+      </li>
+      <br />
+      <li>College Mates</li>
+      <ol>
+        <li>Snouti</li>
+        <li>Srushti</li>
+        <li>Shantanu</li>
+        <li>Ankita</li>
+      </ol>
+      <br />
+      <li>Office Friends</li>
+    </ol>
+  </body>
+</html>

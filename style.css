@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+/* Universal Selector  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+/* Element or Name selector */
+label{
+    color: rgb(76, 160, 163);
+}
+/* Atrribute Selector */
+
+input[type="text"]{
+border: 2px solid orange;
+text-transform: capitalize;
+width: 200px;
+padding: 3px;
+border-radius: 10px;
+color: rgb(210, 105, 30);
+}
+input [type="email"]{
+
+}
+
+button[type="submit"],button[type="reset"]:hover{
+color: #794118;
+background-color: lavender;
+width: 80px;
+border-radius: 5px;
+}
+
+/* or */
+
+/*#submit:hover{
+  color: #794118;
+  background-color: lavender;
+  width: 80px;
+  border-radius: 5px;
+  }
+  */
